@@ -1,0 +1,19 @@
+.pdf-uploader {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  .pdf-uploader input {
+    margin-bottom: 1rem;
+  }
+  
+  .pdf-uploader button {
+    background-color: #00fff7;
+    color: #000;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  

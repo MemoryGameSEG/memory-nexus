@@ -1,0 +1,16 @@
+.game-hud {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(0, 255, 247, 0.1);
+  border-bottom: 2px solid #00fff7;
+  padding: 1rem;
+  color: #00fff7;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.2rem;
+  box-shadow: 0 2px 10px rgba(0, 255, 247, 0.3);
+}
+
+.hud-item {
+  flex: 1;
+  text-align: center;
+}

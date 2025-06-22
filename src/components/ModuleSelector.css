@@ -1,0 +1,35 @@
+.module-selector {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .module-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 30px;
+  }
+  
+  .module-buttons button {
+    background-color: #1e90ff;
+    color: white;
+    padding: 14px 24px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .module-buttons button:hover {
+    background-color: #00bfff;
+    transform: scale(1.05);
+  }
+  
